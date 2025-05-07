@@ -1,21 +1,16 @@
 services:
-  xxxbot:
-    image: xwechat:v5
-    container_name: XXXBot
+  xypad:
+    image: xypad:v5
+    container_name: XYPad
     restart: unless-stopped
     ports:
       - "9090:9000" # 管理后台端口
-      - "3333:3000"
-      - "9998:9090"
     volumes:
-      - xxxbot:/app
+      - xypad:/app
       - redis_data:/var/lib/redis
-    environment:
-      - ADMIN_USERNAME=admin
-      - ADMIN_PASSWORD=admin123
 
 volumes:
   redis_data:
     name: redis_data
   xxxbot:
-    name: XXXBot
+    name: XYPad
