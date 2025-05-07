@@ -7,3 +7,4 @@ pysilk_mod==1.6.4
 qrcode==8.2
 SQLAlchemy==2.0.40
 xywechatpad_binary==1.1.0
+apscheduler

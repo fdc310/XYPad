@@ -12,5 +12,5 @@ services:
 volumes:
   redis_data:
     name: redis_data
-  xxxbot:
+  xypad:
     name: XYPad
