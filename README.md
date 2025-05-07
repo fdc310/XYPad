@@ -19,8 +19,8 @@ XY-Pad 是基于XYWchatPad 的独立的wechat接口
 1. **克隆代码库**
 
    ```bash
-   git clone https://github.com/fdc310/XY_Pad
-   cd XY_Pad
+   git clone https://github.com/fdc310/XYPad
+   cd XYPad
    ```
 
 2. **安装依赖**

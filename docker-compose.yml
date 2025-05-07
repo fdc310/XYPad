@@ -1,6 +1,6 @@
 services:
   xypad:
-    image: xypad:v5
+    image: crpi-8ugz4atxq2eydplx.cn-chengdu.personal.cr.aliyuncs.com/adbds/xypad:v5
     container_name: XYPad
     restart: unless-stopped
     ports:
