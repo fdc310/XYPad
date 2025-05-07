@@ -1,0 +1,9 @@
+aiohttp==3.11.18
+loguru==0.7.3
+pydantic==2.11.4
+pydub==0.25.1
+pymediainfo==7.0.1
+pysilk_mod==1.6.4
+qrcode==8.2
+SQLAlchemy==2.0.40
+xywechatpad_binary==1.1.0
